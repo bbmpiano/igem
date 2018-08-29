@@ -17,7 +17,7 @@ body {
  }
 
  nav.black {
-   background: black;
+   background: #222222;
    opacity: 0.9;
    padding:10px 100px;
    transition: 0.225s;
@@ -29,7 +29,7 @@ body {
    float:left;
    font-size: 24px;
    transition: 0.3s;
-   opacity: 0.9;
+   opacity: 1;
  }
 
  nav.black.logo{
@@ -41,18 +41,17 @@ body {
   width: 130px;
   height: 130px;
   display:block;
-  border:15px solid #ffffff;
+  border:30px solid #ffffff;
   border-radius: 500px;
-  border-color: #ffffff;
   position: fixed;
-  top:15px;
-  left:75px;
-  transition: 0.3s;
-  opacity: 0.9;
+  top:0.3vh;
+  left:5vw;
+  transition: 0.2s;
+  opacity: 1;
 }
 .black.logopng{
-  border-color: #000000;
-  opacity: 0.9;
+  border-color: #222222;
+  opacity: 1;
 }
  nav ul {
    list-style:none;
